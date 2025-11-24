@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 01 - apiUsuarios\\apiUsuarios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5988191-A713-4FAD-9060-FB1E834AA154}|apiUsuarios.csproj|c:\\users\\vinicius.cmenezes\\documents\\uc7\\aula 01 - apiusuarios\\apiusuarios\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5988191-A713-4FAD-9060-FB1E834AA154}|apiUsuarios.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5988191-A713-4FAD-9060-FB1E834AA154}|apiUsuarios.csproj|c:\\users\\vinicius.cmenezes\\documents\\uc7\\aula 01 - apiusuarios\\apiusuarios\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5988191-A713-4FAD-9060-FB1E834AA154}|apiUsuarios.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5988191-A713-4FAD-9060-FB1E834AA154}|apiUsuarios.csproj|c:\\users\\vinicius.cmenezes\\documents\\uc7\\aula 01 - apiusuarios\\apiusuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5988191-A713-4FAD-9060-FB1E834AA154}|apiUsuarios.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 01 - apiUsuarios\\apiUsuarios\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 01 - apiUsuarios\\apiUsuarios\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T00:38:49.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 01 - apiUsuarios\\apiUsuarios\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 01 - apiUsuarios\\apiUsuarios\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:10:02.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 01 - apiUsuarios\\apiUsuarios\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 01 - apiUsuarios\\apiUsuarios\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:09:41.091Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 02 - clienteAPI\\clienteAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E55EA87-55F2-4A17-8190-7951CF35F75C}|clienteAPI.csproj|c:\\users\\vinicius.cmenezes\\documents\\uc7\\aula 02 - clienteapi\\clienteapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E55EA87-55F2-4A17-8190-7951CF35F75C}|clienteAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E55EA87-55F2-4A17-8190-7951CF35F75C}|clienteAPI.csproj|c:\\users\\vinicius.cmenezes\\documents\\uc7\\aula 02 - clienteapi\\clienteapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E55EA87-55F2-4A17-8190-7951CF35F75C}|clienteAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E55EA87-55F2-4A17-8190-7951CF35F75C}|clienteAPI.csproj|c:\\users\\vinicius.cmenezes\\documents\\uc7\\aula 02 - clienteapi\\clienteapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E55EA87-55F2-4A17-8190-7951CF35F75C}|clienteAPI.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E55EA87-55F2-4A17-8190-7951CF35F75C}|clienteAPI.csproj|c:\\users\\vinicius.cmenezes\\documents\\uc7\\aula 02 - clienteapi\\clienteapi\\clienteapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3E55EA87-55F2-4A17-8190-7951CF35F75C}|clienteAPI.csproj|solutionrelative:clienteapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E55EA87-55F2-4A17-8190-7951CF35F75C}|clienteAPI.csproj|c:\\users\\vinicius.cmenezes\\documents\\uc7\\aula 02 - clienteapi\\clienteapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E55EA87-55F2-4A17-8190-7951CF35F75C}|clienteAPI.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 02 - clienteAPI\\clienteAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 02 - clienteAPI\\clienteAPI\\appsettings.json*",
+              "RelativeToolTip": "appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-17T00:42:19.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 02 - clienteAPI\\clienteAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 02 - clienteAPI\\clienteAPI\\Data\\AppDbContext.cs*",
+              "RelativeToolTip": "Data\\AppDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T00:28:24.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 02 - clienteAPI\\clienteAPI\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 02 - clienteAPI\\clienteAPI\\Models\\Cliente.cs",
+              "RelativeToolTip": "Models\\Cliente.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:23:24.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clienteAPI",
+              "DocumentMoniker": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 02 - clienteAPI\\clienteAPI\\clienteAPI.csproj",
+              "RelativeDocumentMoniker": "clienteAPI.csproj",
+              "ToolTip": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 02 - clienteAPI\\clienteAPI\\clienteAPI.csproj*",
+              "RelativeToolTip": "clienteAPI.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-16T23:22:46.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 02 - clienteAPI\\clienteAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vinicius.cmenezes\\Documents\\UC7\\Aula 02 - clienteAPI\\clienteAPI\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:00:34.519Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
