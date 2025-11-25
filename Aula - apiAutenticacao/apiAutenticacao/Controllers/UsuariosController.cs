@@ -11,11 +11,11 @@ namespace apiAutenticacao.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsuariosControllers : ControllerBase
+    public class UsuariosController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public UsuariosControllers(AppDbContext context)
+        public UsuariosController(AppDbContext context)
         {
             _context = context;
         }
@@ -23,7 +23,7 @@ namespace apiAutenticacao.Controllers
         [HttpPost("cadastrar")]
         public async Task<ActionResult> CadastrarUsuarioAsync([FromBody] CadastroUsuarioDTO dadosUsuario)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
@@ -57,6 +57,29 @@ namespace apiAutenticacao.Controllers
                 
                 
                 
+        }
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login([FromBody ]LoginDTO dadosUsuario) 
+        {
+        if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);    
+            }
+
+           Usuario? usuarioEncontrado = await _context.Usuarios.FirstOrDefaultAsync(usuario => usuario.Email == dadosUsuario.email);
+            if (usuarioEncontrado != null)
+            {
+                bool isValidPassword = Verify(dadosUsuario.senha, usuarioEncontrado.Senha);
+                if (isValidPassword)
+                {
+                    return Ok("login reealizado com sucesso");
+
+                }
+                return Unauthorized("Login não realizado. Email ou senha incorretos!");
+                
+                }
+            return NotFound("Usuário não encontrado!");
+        
         }
     }
 }

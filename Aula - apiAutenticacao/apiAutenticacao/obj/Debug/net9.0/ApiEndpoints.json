@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "apiAutenticacao.Controllers.UsuariosControllers",
+    "ContainingType": "apiAutenticacao.Controllers.UsuariosController",
     "Method": "CadastrarUsuarioAsync",
-    "RelativePath": "api/UsuariosControllers/cadastrar",
+    "RelativePath": "api/Usuarios/cadastrar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -10,6 +10,22 @@
       {
         "Name": "dadosUsuario",
         "Type": "apiAutenticacao.Models.DTO.CadastroUsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiAutenticacao.Controllers.UsuariosController",
+    "Method": "Login",
+    "RelativePath": "api/Usuarios/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dadosUsuario",
+        "Type": "apiAutenticacao.Models.DTO.LoginDTO",
         "IsRequired": true
       }
     ],
