@@ -1,6 +1,8 @@
 ﻿using apiAutenticacao.Data;
 using apiAutenticacao.Models;
 using apiAutenticacao.Models.DTO;
+using apiAutenticacao.Models.Response;
+using apiAutenticacao.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -14,9 +16,11 @@ namespace apiAutenticacao.Controllers
     public class UsuariosController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly AuthService _authService;
 
-        public UsuariosController(AppDbContext context)
+        public UsuariosController(AppDbContext context, AuthService authService)
         {
+            _authService = authService;
             _context = context;
         }
 
@@ -66,19 +70,13 @@ namespace apiAutenticacao.Controllers
                 return BadRequest(ModelState);    
             }
 
-           Usuario? usuarioEncontrado = await _context.Usuarios.FirstOrDefaultAsync(usuario => usuario.Email == dadosUsuario.email);
-            if (usuarioEncontrado != null)
-            {
-                bool isValidPassword = Verify(dadosUsuario.senha, usuarioEncontrado.Senha);
-                if (isValidPassword)
-                {
-                    return Ok("login reealizado com sucesso");
+            ResponseLogin response = await _authService.Login(dadosUsuario);
 
-                }
-                return Unauthorized("Login não realizado. Email ou senha incorretos!");
-                
-                }
-            return NotFound("Usuário não encontrado!");
+            if (response.Erro)
+            {
+                return BadRequest(response.Erro);
+            }
+            return Ok(response);
         
         }
     }
