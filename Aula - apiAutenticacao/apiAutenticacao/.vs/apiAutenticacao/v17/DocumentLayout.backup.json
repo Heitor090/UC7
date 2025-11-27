@@ -38,8 +38,7 @@
               "RelativeToolTip": "Models\\Response\\ResponseLogin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T00:55:34.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T00:55:34.426Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "Services\\AuthService.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAQwC4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T00:14:40.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T00:14:40.74Z"
             },
             {
               "$type": "Document",
@@ -64,8 +62,7 @@
               "RelativeToolTip": "Models\\DTO\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T00:09:39.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T00:09:39.563Z"
             },
             {
               "$type": "Document",
@@ -75,7 +72,7 @@
               "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAowE4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAowEMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T23:09:36.261Z",
               "EditorCaption": ""

@@ -63,7 +63,7 @@ namespace apiAutenticacao.Controllers
                 
         }
         [HttpPost("Login")]
-        public async Task<IActionResult> Login([FromBody ]LoginDTO dadosUsuario) 
+             public async Task<IActionResult> Login([FromBody ]LoginDTO dadosUsuario) 
         {
         if (!ModelState.IsValid)
             {
