@@ -53,5 +53,101 @@ namespace apiAutenticacao.Services
             };
         }
 
+        public async Task<ResponseCadastro> CadastrarUsuariosAsync(CadastroUsuarioDTO dadosUsuariosCadastro)
+        {
+            Usuario? usuarioExistente = await _context.Usuarios.
+             FirstOrDefaultAsync(usuario => usuario.Email == dadosUsuariosCadastro.Email);
+
+            if (usuarioExistente != null)
+            {
+                return new ResponseCadastro
+                {
+                    Erro = true,
+                    Messege = "Impossível realizar este cadastro com este e-mail!"
+
+                };
+               
+            }
+            Usuario usuario = new Usuario
+            {
+                Nome = dadosUsuariosCadastro.Nome,
+                Email = dadosUsuariosCadastro.Email,
+                Senha = HashPassword(dadosUsuariosCadastro.Senha),
+                ConfirmarSenha = HashPassword(dadosUsuariosCadastro.ConfirmarSenha)
+            };
+
+            _context.Usuarios.Add(usuario);
+            await _context.SaveChangesAsync();
+
+            return new ResponseCadastro
+            {
+                Erro = false,
+                Messege ="Usuario cadastrado com sucesso!",
+                Usuario = usuario
+            };                          
+                                
+
+        }
+        public async Task<ResponseTrocaSenha> AlterarSenhaAsync(AlterarSenhaDTO dadosUsuarioTrocaSenhas)
+        {
+            Usuario? usuarioExistente = await _context.Usuarios.FirstOrDefaultAsync(usuario => usuario.Email == dadosUsuarioTrocaSenhas.Email);
+
+            if (usuarioExistente == null)
+            {
+                return new ResponseTrocaSenha
+                {
+                    Erro = true,
+                    Message = "Usuario não encontrado!"
+                };
+            }
+
+            bool isValidPassword = Verify(dadosUsuarioTrocaSenhas.SenhaAtual, usuarioExistente.Senha);
+
+            if (!isValidPassword)
+            {
+                return new ResponseTrocaSenha 
+                
+                {
+                    Erro = true,
+                    Message="Senha não confere"
+                };
+
+
+
+            }
+
+            if (dadosUsuarioTrocaSenhas.NovaSenha != dadosUsuarioTrocaSenhas.ConfirmarSenha)
+            {
+                return new ResponseTrocaSenha
+
+                {
+                    Erro = true,
+                    Message = "A senha de confirmação deve ser igual a nova!"
+                };
+
+            }
+
+            usuarioExistente.Senha = HashPassword(dadosUsuarioTrocaSenhas.NovaSenha);
+               
+
+            Usuario usuario = new Usuario { 
+            Email = dadosUsuarioTrocaSenhas.Email,            
+            Senha = HashPassword(dadosUsuarioTrocaSenhas.NovaSenha),
+            
+            
+            };
+
+            _context.Usuarios.Update(usuario);
+           await _context.SaveChangesAsync();
+
+            return new ResponseTrocaSenha
+            {
+                Erro = false,
+                Message = "Usuario cadastrado com sucesso!",
+                
+            };
+
+        }
+
     }
 }

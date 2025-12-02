@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace apiAutenticacao.Models
 {
@@ -22,16 +23,16 @@ namespace apiAutenticacao.Models
 
         [Required(ErrorMessage ="A senha é obrigatória")]
         [StringLength(255, ErrorMessage ="A senha deve ter no máximo 255 caracteres")]
-
+        [JsonIgnore]
         public string Senha { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "A senha é obrigatória")]
         [Compare("Senha", ErrorMessage = "As senhas não conferem")]
-
+        [JsonIgnore]
         public string ConfirmarSenha { get; set; } = string.Empty;
-
+        [JsonIgnore]
         public DateTime DataCadastro { get; set; }
-
+        [JsonIgnore]
         public bool Ativo { get; set; }
 
         public Usuario()
