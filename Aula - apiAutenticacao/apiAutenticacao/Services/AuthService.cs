@@ -143,7 +143,7 @@ namespace apiAutenticacao.Services
             return new ResponseTrocaSenha
             {
                 Erro = false,
-                Message = "Usuario cadastrado com sucesso!",
+                Message = "Senha alterada com sucesso!",
                 
             };
 
