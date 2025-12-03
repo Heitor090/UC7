@@ -1,6 +1,8 @@
 ﻿using apiAutenticacao.Data;
 using apiAutenticacao.Models;
 using apiAutenticacao.Models.DTO;
+using apiAutenticacao.Models.Response;
+using apiAutenticacao.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -14,9 +16,11 @@ namespace apiAutenticacao.Controllers
     public class UsuariosController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly AuthService _authService;
 
-        public UsuariosController(AppDbContext context)
+        public UsuariosController(AppDbContext context, AuthService authService)
         {
+            _authService = authService;
             _context = context;
         }
 
@@ -27,59 +31,47 @@ namespace apiAutenticacao.Controllers
             {
                 return BadRequest(ModelState);
             }
-
-            Usuario? usuarioExistente = await _context.Usuarios.
-               FirstOrDefaultAsync(usuario => usuario.Email == dadosUsuario.Email);
-
-            if (usuarioExistente != null)
+            ResponseCadastro response = await _authService.CadastrarUsuariosAsync(dadosUsuario);
+            if (response.Erro)
             {
-                return BadRequest(new { Mensagem = "Este email ja esta cadastrado!" });
+                return BadRequest(response);
             }
-            Usuario Usuario = new Usuario
-            {
-                Nome = dadosUsuario.Nome,
-                Email = dadosUsuario.Email,
-                Senha = HashPassword(dadosUsuario.Senha),
-                ConfirmarSenha = HashPassword(dadosUsuario.ConfirmarSenha)
-            };
-
-            _context.Usuarios.Add(Usuario);
-            await _context.SaveChangesAsync();
-
-            return Ok(new
-            {
-                id = Usuario.Id,
-                nome = Usuario.Nome,
-                email = Usuario.Email,
-                
-            });
-               
-                
-                
-                
+            return Ok(response);
         }
         [HttpPost("Login")]
-        public async Task<IActionResult> Login([FromBody ]LoginDTO dadosUsuario) 
+        public async Task<IActionResult> Login([FromBody] LoginDTO dadosUsuario)
         {
-        if (!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState);    
+                return BadRequest(ModelState);
             }
 
-           Usuario? usuarioEncontrado = await _context.Usuarios.FirstOrDefaultAsync(usuario => usuario.Email == dadosUsuario.email);
-            if (usuarioEncontrado != null)
-            {
-                bool isValidPassword = Verify(dadosUsuario.senha, usuarioEncontrado.Senha);
-                if (isValidPassword)
-                {
-                    return Ok("login reealizado com sucesso");
+            ResponseLogin response = await _authService.Login(dadosUsuario);
 
-                }
-                return Unauthorized("Login não realizado. Email ou senha incorretos!");
-                
-                }
-            return NotFound("Usuário não encontrado!");
-        
+            if (response.Erro)
+            {
+                return BadRequest(response.Erro);
+            }
+            return Ok(response);
+
+
+
+        }
+        [HttpPut("AlterarSenha")]
+        public async Task<IActionResult> AlterarSenha([FromBody] AlterarSenhaDTO dadosAlterarSenha)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            ResponseTrocaSenha response = await _authService.AlterarSenhaAsync(dadosAlterarSenha);
+
+            if (response.Erro)
+            {
+                return BadRequest(response);
+            }
+            return Ok(response);
         }
     }
 }

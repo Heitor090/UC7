@@ -7,6 +7,38 @@
       "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\heitor.bleao\\documents\\ucs\\uc7\\aula - apiautenticacao\\apiautenticacao\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\heitor.bleao\\documents\\ucs\\uc7\\aula - apiautenticacao\\apiautenticacao\\models\\dto\\alterarsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\dto\\alterarsenhadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\heitor.bleao\\documents\\ucs\\uc7\\aula - apiautenticacao\\apiautenticacao\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\heitor.bleao\\documents\\ucs\\uc7\\aula - apiautenticacao\\apiautenticacao\\models\\response\\responsetrocasenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\response\\responsetrocasenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\heitor.bleao\\documents\\ucs\\uc7\\aula - apiautenticacao\\apiautenticacao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\heitor.bleao\\documents\\ucs\\uc7\\aula - apiautenticacao\\apiautenticacao\\models\\response\\responsecadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\response\\responsecadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\heitor.bleao\\documents\\ucs\\uc7\\aula - apiautenticacao\\apiautenticacao\\models\\response\\responselogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\response\\responselogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\heitor.bleao\\documents\\ucs\\uc7\\aula - apiautenticacao\\apiautenticacao\\models\\dto\\cadastrousuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\dto\\cadastrousuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|c:\\users\\heitor.bleao\\documents\\ucs\\uc7\\aula - apiautenticacao\\apiautenticacao\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD504EF4-90CA-4F38-87E4-4286EB23E1D2}|apiAutenticacao.csproj|solutionrelative:models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,19 +50,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\DTO\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTO\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\DTO\\LoginDTO.cs",
-              "RelativeToolTip": "Models\\DTO\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T00:09:39.563Z",
+              "WhenOpened": "2025-12-02T22:32:55.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResponseLogin.cs",
+              "DocumentMoniker": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\Response\\ResponseLogin.cs",
+              "RelativeDocumentMoniker": "Models\\Response\\ResponseLogin.cs",
+              "ToolTip": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\Response\\ResponseLogin.cs",
+              "RelativeToolTip": "Models\\Response\\ResponseLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T00:55:34.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResponseCadastro.cs",
+              "DocumentMoniker": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\Response\\ResponseCadastro.cs",
+              "RelativeDocumentMoniker": "Models\\Response\\ResponseCadastro.cs",
+              "ToolTip": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\Response\\ResponseCadastro.cs",
+              "RelativeToolTip": "Models\\Response\\ResponseCadastro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:04:47.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResponseTrocaSenha.cs",
+              "DocumentMoniker": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\Response\\ResponseTrocaSenha.cs",
+              "RelativeDocumentMoniker": "Models\\Response\\ResponseTrocaSenha.cs",
+              "ToolTip": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\Response\\ResponseTrocaSenha.cs",
+              "RelativeToolTip": "Models\\Response\\ResponseTrocaSenha.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T00:39:34.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:30:35.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAQwH8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T00:14:40.74Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +134,46 @@
               "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDwAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAwwEwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-14T23:09:36.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CadastroUsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\DTO\\CadastroUsuarioDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\CadastroUsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\DTO\\CadastroUsuarioDTO.cs",
+              "RelativeToolTip": "Models\\DTO\\CadastroUsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T00:21:23.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "Models\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T00:09:39.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlterarSenhaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\DTO\\AlterarSenhaDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\AlterarSenhaDTO.cs",
+              "ToolTip": "C:\\Users\\heitor.bleao\\Documents\\UCS\\UC7\\Aula - apiAutenticacao\\apiAutenticacao\\Models\\DTO\\AlterarSenhaDTO.cs",
+              "RelativeToolTip": "Models\\DTO\\AlterarSenhaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T00:20:15.345Z",
               "EditorCaption": ""
             }
           ]
