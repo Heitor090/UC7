@@ -30,7 +30,7 @@ namespace apiAutenticacao.Services
                     {
 
                         Erro = false,
-                        Message = "Login cadastrado com sucesso",
+                        Messege = "Login cadastrado com sucesso",
                         Usuario = usuarioEncontrado
                     };
 
@@ -39,7 +39,7 @@ namespace apiAutenticacao.Services
                 {
 
                     Erro = true,
-                    Message = "Email ou senha incorretos!",
+                    Messege = "Email ou senha incorretos!",
                    
                 }; ;
 
@@ -48,7 +48,7 @@ namespace apiAutenticacao.Services
             {
 
                 Erro = true,
-                Message = "Usuario não encontrado",
+                Messege = "Usuario não encontrado",
                
             };
         }
@@ -97,7 +97,7 @@ namespace apiAutenticacao.Services
                 return new ResponseTrocaSenha
                 {
                     Erro = true,
-                    Message = "Usuario não encontrado!"
+                    Messege = "Usuario não encontrado!"
                 };
             }
 
@@ -109,7 +109,7 @@ namespace apiAutenticacao.Services
                 
                 {
                     Erro = true,
-                    Message="Senha não confere"
+                    Messege="Senha não confere"
                 };
 
 
@@ -122,7 +122,7 @@ namespace apiAutenticacao.Services
 
                 {
                     Erro = true,
-                    Message = "A senha de confirmação deve ser igual a nova!"
+                    Messege = "A senha de confirmação deve ser igual a nova!"
                 };
 
             }
@@ -143,7 +143,7 @@ namespace apiAutenticacao.Services
             return new ResponseTrocaSenha
             {
                 Erro = false,
-                Message = "Senha alterada com sucesso!",
+                Messege = "Senha alterada com sucesso!",
                 
             };
 
